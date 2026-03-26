@@ -95,7 +95,7 @@ Papa.parse(mapPaths[selectedMap].heightmap, {
 
         // Update the opacity of the satellite map layer
         document.getElementById('satellite-opacity').addEventListener('input', function (e) {
-            satelliteLayer.setOpacity(e.target.value);
+            satelliteLayer.setOpacities(e.target.value);
         });
 
         // Update the opacity of the color map layer
